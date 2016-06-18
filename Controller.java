@@ -30,8 +30,8 @@ switch(e.getKeyChar()){
 if(GamePanel.p.x<0){
 	GamePanel.p.x=0;
 }
-if(GamePanel.p.x>800-Player.width){
-	GamePanel.p.x=750;
+if(GamePanel.p.x>700-Player.width){
+	GamePanel.p.x=650;
 }
 	}
 
