@@ -58,14 +58,14 @@ public class Ball {
 	}
 
 	public synchronized static void step() {
-		if (getX() < 0 || getX() > 800) {
+		if (getX() < 0 || getX() > 700) {
 			setdX(-getdX());
 		}
 		if (getY() < 0) {
 			setPlayerScore(getPlayerScore() + 1);
 			reset();
 			return;
-		} else if (getY() > 800) {
+		} else if (getY() > 700) {
 			setEnemyScore(getEnemyScore() + 1);
 			reset();
 			return;
