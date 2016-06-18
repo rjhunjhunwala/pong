@@ -31,8 +31,8 @@ public void step(){
 	if(x<0){
 		x=0;
 	}
-	if(x>800-width){
-		x=800-width;
+	if(x>700-width){
+		x=700-width;
 	}
 }
 }
